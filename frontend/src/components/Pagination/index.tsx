@@ -1,0 +1,21 @@
+import React from 'react';
+import './styles.css'
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+
+const Pagination: React.FC = () => {
+  return (
+    <div className="dsmovie-pagination-container">
+    <div className="dsmovie-pagination-box">
+        <button className="dsmovie-pagination-button" disabled={true} >
+            <IoIosArrowBack />
+        </button>
+        <p>{`${1} de ${3}`}</p>
+        <button className="dsmovie-pagination-button" disabled={false} >
+            <IoIosArrowForward className="dsmovie-flip-horizontal" />
+        </button>
+    </div>
+</div>
+  )
+}
+
+export default Pagination;
