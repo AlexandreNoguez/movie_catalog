@@ -1,0 +1,38 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.catalog-nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+
+}
+.catalog-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.catalog-source{
+    display: flex;
+    align-items: center;
+
+}
+
+.gitLogo {
+    color: #FFF;
+    font-size: 2rem;
+}
+
+p {
+    margin: 0 0 0 10px;
+    font-size: 1rem;
+    color: #FFF;
+}
+
+
