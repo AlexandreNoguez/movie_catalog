@@ -48,6 +48,3 @@
     color: var(--color-primary);
 }
 
-.dsmovie-flip-horizontal {
-    transform: rotate(180deg);
-}
