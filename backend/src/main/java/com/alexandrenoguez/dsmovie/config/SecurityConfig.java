@@ -1,4 +1,4 @@
-package com.alexandrenoguez.dsmovie;
+package com.alexandrenoguez.dsmovie.config;
 
 import java.util.Arrays;
 
